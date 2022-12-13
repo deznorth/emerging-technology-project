@@ -1,14 +1,30 @@
+@import 'vars.scss';
+
 html,
 body {
-  padding: 0;
+  padding: 2rem 6rem;
   margin: 0;
+  background-color: $bg-color;
+  color: $body;
+  font-size: 20px;
+  letter-spacing: 1.25pt;
 }
 
 a {
-  color: inherit;
+  color: $link;
   text-decoration: none;
+  line-height: 1.5rem;
+
+  &:hover {
+    color: $link-light;
+  }
 }
 
 * {
   box-sizing: border-box;
+}
+
+.global-title {
+  font-size: 3rem;
+  margin-bottom: 2rem;
 }

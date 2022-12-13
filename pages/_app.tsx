@@ -13,6 +13,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name='viewport' content='width=device-width, initial-scale=1' />
       </Head>
       <div className={inter.className}>
+        <h1 className='global-title'>NextJS Demo</h1>
         <Component {...pageProps} />
       </div>
     </>
